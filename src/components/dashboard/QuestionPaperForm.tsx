@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Upload } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
@@ -84,8 +83,43 @@ export const QuestionPaperForm = () => {
   ];
 
   return (
-    <div className="bg-white border rounded-lg shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: "0.1s" }}>
-      <form onSubmit={handleSubmit} className="p-4">
+    <div className="bg-white border border-red-500 rounded-lg shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: "0.1s" }}>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        setIsUploading(true);
+
+        // Simulate upload delay
+        setTimeout(() => {
+          setIsUploading(false);
+          
+          if (!file) {
+            toast({
+              title: "Error",
+              description: "Please select a file to upload.",
+              variant: "destructive",
+            });
+            return;
+          }
+
+          // Success toast
+          toast({
+            title: "Success",
+            description: "Question paper uploaded successfully!",
+          });
+
+          // Reset form
+          setCourseName("");
+          setCourseCode("");
+          setDepartment("");
+          setSemester("");
+          setExamType("");
+          setFile(null);
+          
+          // Reset the file input
+          const fileInput = document.getElementById("file-upload") as HTMLInputElement;
+          if (fileInput) fileInput.value = "";
+        }, 1500);
+      }} className="p-4">
         <div className="space-y-4">
           <div>
             <label htmlFor="course-name" className="block text-sm font-medium text-gray-700 mb-1">

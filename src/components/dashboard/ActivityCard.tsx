@@ -73,7 +73,7 @@ export const ActivityCard = () => {
   };
 
   return (
-    <div className="bg-white border rounded-lg shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: "0.2s" }}>
+    <div className="bg-white border border-red-500 rounded-lg shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: "0.2s" }}>
       <div className="px-4 py-3 border-b">
         <h2 className="text-lg font-semibold">Recent Activity</h2>
       </div>
