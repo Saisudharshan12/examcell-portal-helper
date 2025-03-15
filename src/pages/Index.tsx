@@ -21,7 +21,7 @@ const Index = () => {
         >
           <div className="mb-10 flex justify-center">
             <img 
-              src="/lovable-uploads/d8282a8b-d67b-46e6-82c8-c8fe563c3ff9.png" 
+              src="/lovable-uploads/e940d628-680d-49fd-9c3e-600410cbbfd8.png" 
               alt="Amrita School of Engineering" 
               className="h-20 object-contain animate-fade-in"
             />
@@ -36,9 +36,9 @@ const Index = () => {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-12 max-w-3xl mx-auto">
             <div 
-              className="flex flex-col items-center bg-white border rounded-lg p-8 shadow-sm hover:shadow-md transition-all animate-scale-in hover-scale"
+              className="flex flex-col items-center justify-center w-56 h-56 rounded-full border-2 border-red-500 bg-white p-8 shadow-sm hover:shadow-lg transition-all animate-scale-in hover:scale-110"
               style={{ animationDelay: "0.2s" }}
             >
               <div className="rounded-full bg-pink-50 p-4 mb-4">
@@ -59,9 +59,6 @@ const Index = () => {
                 </svg>
               </div>
               <h2 className="text-xl font-semibold mb-2">Faculty</h2>
-              <p className="text-gray-600 text-center mb-4">
-                Login for faculty members
-              </p>
               <Link 
                 to="/faculty-login" 
                 className="w-full bg-brand-magenta hover:bg-brand-dark text-white py-2 px-4 rounded text-center transition-colors"
@@ -71,7 +68,7 @@ const Index = () => {
             </div>
 
             <div 
-              className="flex flex-col items-center bg-white border rounded-lg p-8 shadow-sm hover:shadow-md transition-all animate-scale-in hover-scale"
+              className="flex flex-col items-center justify-center w-56 h-56 rounded-full border-2 border-red-500 bg-white p-8 shadow-sm hover:shadow-lg transition-all animate-scale-in hover:scale-110"
               style={{ animationDelay: "0.3s" }}
             >
               <div className="rounded-full bg-pink-50 p-4 mb-4">
@@ -89,9 +86,6 @@ const Index = () => {
                 </svg>
               </div>
               <h2 className="text-xl font-semibold mb-2">Administrator</h2>
-              <p className="text-gray-600 text-center mb-4">
-                Login for administrators
-              </p>
               <Link 
                 to="/admin-login" 
                 className="w-full bg-brand-magenta hover:bg-brand-dark text-white py-2 px-4 rounded text-center transition-colors"

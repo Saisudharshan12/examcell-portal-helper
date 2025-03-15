@@ -16,9 +16,13 @@ export const Header = ({
   return (
     <header className={`flex items-center ${variant === "dashboard" ? "justify-between bg-brand-magenta text-white px-6 py-3" : "justify-start bg-brand-magenta text-white p-4"}`}>
       <div className="flex items-center space-x-2">
-        <GraduationCap className="h-6 w-6" />
-        <Link to="/" className="text-xl font-bold tracking-tight transition-colors hover:text-white/90">
-          {title}
+        <Link to="/" className="flex items-center space-x-2 transition-colors hover:text-white/90">
+          <img 
+            src="/lovable-uploads/e940d628-680d-49fd-9c3e-600410cbbfd8.png" 
+            alt="Amrita School of Engineering" 
+            className="h-8 w-auto"
+          />
+          <span className="text-xl font-bold tracking-tight">{title}</span>
         </Link>
       </div>
       

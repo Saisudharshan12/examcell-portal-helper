@@ -19,8 +19,8 @@ const AdminLogin = () => {
     // Simulate login - in a real app, this would be an API call
     setTimeout(() => {
       setIsLoading(false);
-      // Demo credentials for testing
-      if (username === "admin" && password === "password") {
+      // Use the new credentials
+      if (username === "exam_cell" && password === "exam12345") {
         toast({
           title: "Login successful",
           description: "Welcome to the Exam Cell Portal.",
@@ -44,7 +44,7 @@ const AdminLogin = () => {
         <div className="w-full max-w-md animate-fade-in">
           <div className="mb-8 flex justify-center">
             <img 
-              src="/lovable-uploads/d8282a8b-d67b-46e6-82c8-c8fe563c3ff9.png" 
+              src="/lovable-uploads/e940d628-680d-49fd-9c3e-600410cbbfd8.png" 
               alt="Amrita School of Engineering" 
               className="h-16 object-contain"
             />
