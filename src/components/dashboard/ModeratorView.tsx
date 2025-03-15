@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Eye, Download, Check, X, MessageSquare } from 'lucide-react';
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -34,7 +35,7 @@ export const ModeratorView = () => {
       id: 'QP001',
       courseName: 'Data Structures and Algorithms',
       courseCode: 'CS201',
-      facultyName: 'Dr. Rajesh Kumar',
+      facultyName: 'faculty_Rajesh Kumar',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -45,7 +46,7 @@ export const ModeratorView = () => {
       id: 'QP002',
       courseName: 'Database Management Systems',
       courseCode: 'CS202',
-      facultyName: 'Dr. Priya Singh',
+      facultyName: 'faculty_Priya Singh',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -56,7 +57,7 @@ export const ModeratorView = () => {
       id: 'QP003',
       courseName: 'Digital Electronics',
       courseCode: 'EC201',
-      facultyName: 'Dr. Ramesh Nair',
+      facultyName: 'faculty_Ramesh Nair',
       department: 'Electronics and Communication Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -67,7 +68,7 @@ export const ModeratorView = () => {
       id: 'QP004',
       courseName: 'Operating Systems',
       courseCode: 'CS301',
-      facultyName: 'Dr. Sanjay Mehta',
+      facultyName: 'faculty_Sanjay Mehta',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '5th Semester',
@@ -78,7 +79,7 @@ export const ModeratorView = () => {
       id: 'QP005',
       courseName: 'Computer Networks',
       courseCode: 'CS302',
-      facultyName: 'Dr. Lakshmi Narayan',
+      facultyName: 'faculty_Lakshmi Narayan',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '5th Semester',

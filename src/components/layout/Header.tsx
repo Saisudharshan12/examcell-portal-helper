@@ -50,9 +50,9 @@ export const Header = ({
             className="flex items-center space-x-2 transition-colors hover:text-white/90 focus:outline-none"
           >
             <Avatar className="h-8 w-8 border border-white/20">
-              <AvatarFallback className="bg-white/10 text-white">U</AvatarFallback>
+              <AvatarFallback className="bg-white/10 text-white">FU</AvatarFallback>
             </Avatar>
-            <span className="text-sm font-medium">Admin User</span>
+            <span className="text-sm font-medium">faculty_User</span>
           </button>
           
           {profileOpen && (
