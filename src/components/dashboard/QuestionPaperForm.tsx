@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Upload } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
@@ -144,7 +145,7 @@ export const QuestionPaperForm = () => {
               id="course-code"
               type="text"
               className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-magenta"
-              placeholder="e.g. CS101"
+              placeholder="e.g. 19CSE123"
               value={courseCode}
               onChange={(e) => setCourseCode(e.target.value)}
               required

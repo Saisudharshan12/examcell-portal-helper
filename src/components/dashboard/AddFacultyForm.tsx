@@ -109,7 +109,7 @@ export const AddFacultyForm = ({ onClose }: AddFacultyFormProps) => {
                 name="courseCode" 
                 value={formData.courseCode} 
                 onChange={handleChange} 
-                placeholder="Enter course code"
+                placeholder="e.g., 19CSE123"
               />
             </div>
             <div>

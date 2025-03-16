@@ -34,8 +34,8 @@ export const ModeratorView = () => {
     {
       id: 'QP001',
       courseName: 'Data Structures and Algorithms',
-      courseCode: 'CS201',
-      facultyName: 'faculty_Rajesh Kumar',
+      courseCode: '19CSE201',
+      facultyName: 'faculty1',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -45,8 +45,8 @@ export const ModeratorView = () => {
     }, {
       id: 'QP002',
       courseName: 'Database Management Systems',
-      courseCode: 'CS202',
-      facultyName: 'faculty_Priya Singh',
+      courseCode: '19CSE202',
+      facultyName: 'faculty2',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -56,8 +56,8 @@ export const ModeratorView = () => {
     }, {
       id: 'QP003',
       courseName: 'Digital Electronics',
-      courseCode: 'EC201',
-      facultyName: 'faculty_Ramesh Nair',
+      courseCode: '19ECE201',
+      facultyName: 'faculty3',
       department: 'Electronics and Communication Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -67,8 +67,8 @@ export const ModeratorView = () => {
     }, {
       id: 'QP004',
       courseName: 'Operating Systems',
-      courseCode: 'CS301',
-      facultyName: 'faculty_Sanjay Mehta',
+      courseCode: '19CSE301',
+      facultyName: 'faculty4',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '5th Semester',
@@ -78,8 +78,8 @@ export const ModeratorView = () => {
     }, {
       id: 'QP005',
       courseName: 'Computer Networks',
-      courseCode: 'CS302',
-      facultyName: 'faculty_Lakshmi Narayan',
+      courseCode: '19CSE302',
+      facultyName: 'faculty5',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '5th Semester',
@@ -204,7 +204,7 @@ export const ModeratorView = () => {
                 <TableRow key={paper.id}>
                   <TableCell className="font-medium">{paper.id}</TableCell>
                   <TableCell>{paper.courseName}</TableCell>
-                  <TableCell className="19CSE201">{paper.courseCode}</TableCell>
+                  <TableCell className="">{paper.courseCode}</TableCell>
                   <TableCell>{paper.facultyName}</TableCell>
                   <TableCell>{paper.department}</TableCell>
                   <TableCell>{paper.semester}</TableCell>

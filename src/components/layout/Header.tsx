@@ -52,7 +52,7 @@ export const Header = ({
             <Avatar className="h-8 w-8 border border-white/20">
               <AvatarFallback className="bg-white/10 text-white">FU</AvatarFallback>
             </Avatar>
-            <span className="text-sm font-medium">faculty_User</span>
+            <span className="text-sm font-medium">faculty1</span>
           </button>
           
           {profileOpen && (

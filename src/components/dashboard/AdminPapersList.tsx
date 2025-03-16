@@ -34,8 +34,8 @@ export const AdminPapersList = () => {
     {
       id: 'QP002',
       courseName: 'Database Management Systems',
-      courseCode: 'CS202',
-      facultyName: 'faculty_Priya Singh',
+      courseCode: '19CSE202',
+      facultyName: 'faculty2',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '3rd Semester',
@@ -48,8 +48,8 @@ export const AdminPapersList = () => {
     {
       id: 'QP006',
       courseName: 'Machine Learning',
-      courseCode: 'CS401',
-      facultyName: 'faculty_Suresh Kumar',
+      courseCode: '19CSE401',
+      facultyName: 'faculty6',
       department: 'Computer Science Engineering',
       year: '2023-2024',
       semester: '7th Semester',
@@ -61,8 +61,8 @@ export const AdminPapersList = () => {
     {
       id: 'QP008',
       courseName: 'Digital Signal Processing',
-      courseCode: 'EC302',
-      facultyName: 'faculty_Meenakshi Iyer',
+      courseCode: '19ECE302',
+      facultyName: 'faculty7',
       department: 'Electronics and Communication Engineering',
       year: '2023-2024',
       semester: '5th Semester',
